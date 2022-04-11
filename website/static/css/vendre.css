@@ -1,0 +1,35 @@
+.sellForm{
+    width: 70%;
+    margin-left: 50%;
+    transform: translate(-50%);
+    border: solid 1px black;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sellForm > h3{
+    padding: 20px 20px;
+    text-decoration: underline;
+}
+.sellForm > div{
+    padding: 20px 20px;
+}
+.sellForm > p{
+    padding: 20px 20px;
+}
+.sellForm > button{
+    margin : 30px;
+    width: 10vw;
+    height: 8vh;
+}
+
+.flexinput{
+    display: flex;
+    flex-direction: row;
+}

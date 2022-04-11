@@ -1,0 +1,71 @@
+ table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    border-collapse: collapse;
+    border: 2px solid black;
+    padding-bottom: 5vh;
+    background-color: white;
+  }
+
+  caption {
+    font-size: 200%;
+    padding: 20px;
+    caption-side: top;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 1px;
+  }
+
+  th{
+      border-bottom:solid 1px grey ;
+  }
+
+  thead th{
+    font-weight: 900;
+  }
+
+  thead th:nth-child(1) {
+    width: 30%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 20%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 15%;
+  }
+  
+  thead th:nth-child(4) {
+    width: 15%;
+  }
+  
+  th, td {
+    padding: 10px;
+  }
+
+  th img{
+    width: 25vh;
+    height: auto;
+  }
+
+  tbody th{
+    font-weight: 500;
+    padding: 20px;
+  }
+
+  .divDescrip{
+      font-size: small;
+      height: max(25vh);
+      overflow:hidden;
+      display: inline-block;
+      text-overflow: hidden;
+  }
+
+  .divDescrip > p{
+    text-overflow: ellipsis;
+  }
+
+  
